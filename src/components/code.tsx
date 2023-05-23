@@ -31,6 +31,5 @@ function Code({ ...props }: any) {
       </Highlight>
     </div>
   );
-  return <LiveCode code={code} />;
 }
 export default Code;
