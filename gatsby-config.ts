@@ -1,5 +1,3 @@
-const path = require("path");
-
 module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
@@ -14,7 +12,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: path.resolve("./src/pages"),
+        path: `${__dirname}/src/pages/`,
       },
     },
   ],

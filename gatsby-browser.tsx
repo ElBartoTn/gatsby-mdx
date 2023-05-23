@@ -10,13 +10,6 @@ export const wrapPageElement: GatsbyBrowser["wrapPageElement"] = ({
   return <Layout pageContext={props.pageContext}>{element}</Layout>;
 };
 
-// Logs when the client route changes
-
-export const onRouteUpdate: GatsbyBrowser["onRouteUpdate"] = ({
-  location,
-  prevLocation,
-}) => {};
-
 const components = {
   pre: (props) => console.log(props),
   code: Code,

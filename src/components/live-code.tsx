@@ -1,4 +1,3 @@
-import { Box, Typography } from "@flaconi/nebula-react";
 import React, { useState } from "react";
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from "react-live";
 
